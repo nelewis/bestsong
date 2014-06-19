@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  artist_id: 1
+  average_rating: 1.5
+  length: 2014-06-12 19:52:30
+
+two:
+  title: MyString
+  artist_id: 1
+  average_rating: 1.5
+  length: 2014-06-12 19:52:30
