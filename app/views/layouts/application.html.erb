@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Bestsong</title>
+  <title>Bestestsong</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<header>
+<h1>Bestest Song App</h1>
+</header>
 
 <%= yield %>
+<footer>
+  <%= link_to "Home", root_path %> 
+  <p>Copyright 2014 by Cheri</p>
+</footer>
 
 </body>
 </html>
+
+
+
+
